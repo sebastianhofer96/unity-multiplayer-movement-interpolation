@@ -28,7 +28,9 @@ The repository includes the game client, game server and benchmark tool used to 
 ![Benchmark Tool](https://user-images.githubusercontent.com/1010651/161638515-585b28fb-2510-41eb-9fba-740cb931795d.png)
 
 ## Step-By-Step
-Export/Import path: *"%userprofile%\AppData\LocalLow\Sebastian Hofer\\"*
+Create symlink in *"GameClient\Assets"*: `mklink /D Shared ..\..\GameServer\Assets\Shared`
+
+Path for export/import: *"%userprofile%\AppData\LocalLow\Sebastian Hofer\\"*
 
 1. __Record Player Movement__
     1. Start the server.
